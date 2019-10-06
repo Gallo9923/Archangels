@@ -29,7 +29,6 @@ public class Archangel
 	* @param month Month of celebration for the archangel
 	* @param power Power of the archangel
 	* @param candle Candle of the archangel
-	* @return String information about the ejecution status
 	*/
 	public Archangel(String name, String picture, String prayer, int day, int month, Power power, Candle candle)
 	{

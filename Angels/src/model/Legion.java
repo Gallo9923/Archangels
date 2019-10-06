@@ -147,8 +147,8 @@ public class Legion
 	* 	<b> pre: </b> The length of the String str must be bigger or equal than indexStart and indexEnd
 	* 	<b> pos: </b> subString is generated
 	*	@param str String of which substring will be obtain
-	*	@param indexInicio start index inclusive to form the substring from the String
-	*	@param indexFinal final index non-inclusive to form the substring from the String
+	*	@param indexStart start index inclusive to form the substring from the String
+	*	@param indexEnd final index non-inclusive to form the substring from the String
 	*	@return String subString
 	*/
 	public String subString(String str, int indexStart, int indexEnd)
@@ -167,7 +167,7 @@ public class Legion
 	* Evaluates if an archangel exist by name
 	* <b>pre:</b> array archangels must be instantiated
 	* @param name Name of the archangel
-	* @boolean True if the archangel exist 
+	* @return boolean True if the archangel exist 
 	*/
 	public boolean existArchangelByName(String name)
 	{
@@ -286,7 +286,7 @@ public class Legion
 	* Returns an archangel by its name
 	* <b>pre:</b> array archangel must be instantiated
 	* @param name Name of the archangel to look for
-	* return Archangel Archangel
+	* @return Archangel Archangel
 	*/
 	public Archangel searchArchByName(String name)
 	{
